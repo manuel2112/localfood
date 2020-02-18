@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+}
+
+@media (max-width: 767.98px) 
+{
+	main .sticker2{
+		padding: 20px 0;
+	}	
+	main .sticker2 h2.title{
+		font-size: 5.0vh;
+	}	
+	footer p{
+		text-align: center;
+	}
+	nav {
+		padding: 10px 0;
+	}
+	main .formulario h1{
+		font-size: 5.0vh;
+	}
+}
+
+@media (max-width: 575.98px) {}
+

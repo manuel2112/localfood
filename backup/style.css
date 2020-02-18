@@ -1,0 +1,129 @@
+* {
+  font-size: 12px; }
+
+body {
+	background:#f2f2f2;
+    font-family: Verdana, Geneva, sans-serif;
+	height: auto; 
+}
+
+.no-gutter>[class^="col-"]{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.conpadding [class*="col-"] {
+  padding: 15px; }
+
+.hidden {
+  display: none; }
+
+.ir-arriba {
+  width: auto;
+  padding: 10px;
+  background: #fff;
+  font-size: 1rem;
+  color: #9c9a9f;
+  cursor: pointer;
+  position: fixed;
+  top: 94%;
+  right: 20px;
+  z-index: 15;
+}
+
+strong {
+	font-weight: bold;
+}
+/*************************************************************/
+/*************************CSS*********************************/
+/*************************************************************/
+
+/*****************************************************************************
+HEADER 
+****************************************************************************/
+header {
+}
+header img.logo{
+	width: 70%;
+	margin: 10px auto;
+}
+
+/*****************************************************************************
+NAV 
+****************************************************************************/
+nav {
+}
+nav ul.nav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch;	
+	margin: 40px 0 0;
+}
+nav ul li a{
+	color: #000;
+	font-size: 1.4rem;
+}
+
+/*****************************************************************************
+MAIN 
+****************************************************************************/
+main{
+}
+
+/*****************************************************************************/
+/*                            FOOTER                                         */
+/*****************************************************************************/
+footer {
+	margin: 20px 0 0;
+}
+footer p{
+	color: #000;
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 10px 0 20px;
+}
+footer p a{
+	color: #000;
+	font-size: 1.2rem;
+}
+
+/*****************************************************************************/
+/*                            MARGEN                                         */
+/*****************************************************************************/
+.margin-top-01{
+	margin-top: 30px;
+}
+.border-bottom{
+	border-bottom: 1px solid #000;
+}
+
+/*****************************************************************************/
+/*                            SCROLL                                         */
+/*****************************************************************************/
+#logoParade{
+	width: 100%;
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+#logoParade img{
+	width: 80px !important;
+/*	position: relative;*/
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+#logoParade div.scrollableArea a{
+/*
+	display: block;
+	float: left;
+	padding-left: 10px;
+*/
+}

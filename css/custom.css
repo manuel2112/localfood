@@ -1,0 +1,16 @@
+.list-a li:hover i {	
+    background: #000;
+	color: #fff;
+}
+.btn {
+	background: #000 !important;
+	color: #fff !important;
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+.btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
